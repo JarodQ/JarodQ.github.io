@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Elements - Editorial by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Portfolio</strong></a>
+									<ul class="icons">
+										<li><a href="https://www.linkedin.com/in/jarod-quinlisk/" class="icon brands fa-linkedin"><span class="label">fa-linkedin</span></a></li>
+										<!--li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li-->
+										<!--li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li-->
+										<!--li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li-->
+									</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Cavern Crawlers</h1>
+
+										<span class="image main"><img src="images/CavernCrawlersArial.png" alt="" /></span>
+									</header>
+
+									<!-- Content -->
+									<h2 id="content">Game Link
+									</h2>
+									<p>https://www.roblox.com/games/13432835701/Cavern-Crawlers</p>	
+									<h2 id="content">Game Overview
+										</h2>
+										<p>As a player, you enter Cavern Crawlers starting at a level of 1 and a wooden pickaxe. You are first given the option to complete a tutorial and have immediate access to the first mine. With each block you mine, you gain experience and the respective block will drop at your feet for you to pick up and place in your inventory. All players have access to an interactive furnace allowing them to refine their valuable ores. Later in the game you gain access to higher level mines which have more precious ores and the introduction of rare gems. Gems can be refined by utilizing the the gem cutting table. After you collect precious resources you are able to sell them to the local shops and upgrade your tools for more effecient resource collection. If you so wish, there is a complete trophy room where you can spend your resources to upgrade a statue of a dragon showing off your achievements for all to see.</p>
+
+										<div class="row">
+											<div class="col-6 col-12-small">
+												<h3>Tutorial</h3>
+												<p>You are first introduced to Cavern Crawlers given the option to complete the tutorial. The tutorial begins by guiding you into the first mine followed by having you collect some resources. You are then shown how to navigate the map with the teleport system. You are introduced to the interactive furnace system to refine the resources you have collected. You are then guided to a few shops to sell your resources for in game currency, buy an upgrade to your tools, and to manage your items with the inventory system. At the end of the tutorial, you are given a generous reward of currency and items to get you started.</p>
+											</div>
+											<div class="col-6 col-12-small">
+												<h3>Clear Objective</h3>
+												<p>Cavern Crawlers was designed to be a simple yet engaging game for all kinds of players. Using simple to understand mechanics and intuitive user interfaces, you are presented with a dynamic experience that allows you to play any way you please.</p>
+											</div>
+											<!-- Break -->
+											<div class="col-4 col-12-medium">
+												<h3>Progression System</h3>
+												<p>Players begin cavern crawlers at level 1. For every resource and block you mine, you gain experience in order to access higher level mines. The xp system is exponential so as you play, the game continously gets harder providing you with more of a challenge. You also have the option of upgrading your tools and purchasing upgrades to your trophies enhancing your experience.</p>
+											</div>
+											<div class="col-4 col-12-medium">
+												<h3>Purchasable Upgrades</h3>
+												<p>Everyone has the option if they so wish to purchase special items for Robux. These items include a gemstone pick to skip the process of tool upgrades, a jetpack allowing you to more easily navigate the mines, and x-ray goggles which allow you to easily see through the boring stone to find more precious resources. You also have the option to purchase a variety of ore packs in case you find yourself in need of more resources.</p>
+											</div>
+											<div class="col-4 col-12-medium">
+												<h3>Trophy Room</h3>
+												<p>Evertime you join Cavern Crawlers, your trophy is displayed in the trophy room for all players to see. There are 10 different statue variations which change the appearance of the trophy as you continue to upgrade with the coveted gemstone dragon as the final achievement.</p>
+											</div>
+										</div>
+
+									<hr class="major" />
+
+									<!-- Elements -->
+										<h2 id="elements">Perlin Noise Generation</h2>
+										<div class="row gtr-200">
+											<div class="col-6 col-12-medium">
+
+												<!-- Text stuff -->
+
+													<p>Perlin noise generation was used to generate six unique mines each with distinguishing ore types of varying amounts dependent upon rarity. The generation begins with Perlin Worms being generated for each type of ore as well as larger blocks to generate the caves. An iterative loop then places blocks one row at a time to mitigate the chance of lag. A check is made each time a block is placed to determine if it is close to an ore or a cave block. The ore is then placed in that spot or not placed if a cave is detected. All the Perlin Worm blocks are then deleted and you are left with a fully generated mine! </p>
+											</div>
+											<div class="col-6 col-12-medium">
+												<span class="image fit"></span><img width="100%" height="auto" style="transform: translate(0px,-90px);" id="" src="gifs/MineGeneration.gif" alt=""></span>
+											</div>
+										</div>
+									<!-- Elements -->
+									<h2 id="elements">Furnace</h2>
+									<div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+
+											<!-- Text stuff -->
+
+												<p>Players can use the furnace to refine all of the ores they have aquired through their journey. The UI is set up for ease of use and understanding. You can select which ore to place in the furnace or coal in the case of adding fuel. You then select the amount you would like to add and then hit start! That all it takes and soon you will have refined ingots which are even more valuable. The furnace can also be upgraded using the upgrades menu. This costs in game currency but is well worth it as you will find yourself with an abundance of resources as you progress. Gems can be cut to increase their value using the gem tables found around the map which share a similar UI as the furnace.</p>
+										</div>
+										<div class="col-6 col-12-medium">
+											<span class="image fit"></span><img width="100%" height="auto" style="transform: translate(0px,-90px);" id="" src="gifs/furnace.gif" alt=""></span>
+
+										</div>
+									</div>
+									<!-- Elements -->
+									<h2 id="elements">Shops</h2>
+									<div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+
+											<!-- Text stuff -->
+
+												<p>Local shops are places around the map for you to sell your valuable treasure for in game currency. This currency can then be spent on upgrading your equipment or your trophy. The shop interface is similar to the furnace and gem table interfaces to present you with an easy to use experience. </p>
+										</div>
+										<div class="col-6 col-12-medium">
+											<span class="image fit"></span><img width="100%" height="auto" style="transform: translate(0px,-90px);" id="" src="gifs/Shop.gif" alt=""></span>
+
+										</div>
+									</div>
+									<h2 id="elements">Inventory</h2>
+									<div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+
+											<!-- Text stuff -->
+
+												<p>Every player has their own inventory which they can use to store their items and change which tool they are using. You inventory has the special ability to know which of your tools is the most powerful so you never have to wonder if you are using the best tool available to you. </p>
+										</div>
+										<div class="col-6 col-12-medium">
+												<span class="image fit"></span><img width="100%" height="auto" style="transform: translate(0px,-90px);" id="" src="gifs/Inventory.gif" alt=""></span>
+
+										</div>
+									</div>
+									<h1>Gallery</h1>
+
+													
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+															<div class="col-4"><span class="image fit"><img src="images/CavernAriel.png" alt="" /></span></div>
+															<div class="col-4"><span class="image fit"><img src="images/Furnace.png" alt="" /></span></div>
+															<div class="col-4"><span class="image fit"><img src="images/Shop.png" alt="" /></span></div>
+															<!-- Break -->
+															<div class="col-4"><span class="image fit"><img src="images/Mine.png" alt="" /></span></div>
+															<div class="col-4"><span class="image fit"><img src="images/Dragon.png" alt="" /></span></div>
+															<div class="col-4"><span class="image fit"><img src="images/Ores.png" alt="" /></span></div>
+															<!-- Break -->
+															<div class="col-4"><span class="image fit"><img src="images/Terrain.png" alt="" /></span></div>
+														</div>
+													</div>
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li>
+											<span class="opener">Projects</span>
+											<ul>
+												<li><a href="caverncrawlers.html">Cavern Crawlers</a></li>
+												<li><a href="battleblox.html">Battle Blox</a></li>
+												<li><a href="gardenwars.html">Garden Wars</a></li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<p>If you have any inquires, please feel free to reach out using the information below.</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">jarod.quinlisk@gmail.com</a></li>
+										<!--li class="icon solid fa-phone">(513)-560-9822</li-->
+										<li class="icon solid fa-home">Location<br />
+										Cincinnati, Ohio</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">copyright &copy; 2024 by Jerry's Jamboree. All rights reserved.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
